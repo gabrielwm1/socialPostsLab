@@ -1,0 +1,17 @@
+<section>
+    <header>My Thoughts</header>
+    
+    <button ng-click ="$ctrl.loadEditSection()">new post</button>
+
+    <post-form
+        on-screen= "onScreen"
+        on-submit= "onSubmit"></post-form>
+
+    <section ng-repeat= "post in $ctrl.posts">
+        <post
+            post= "post">
+        </post>>
+    </section>
+
+    </section>
+</section>
