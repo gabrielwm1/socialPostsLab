@@ -14,6 +14,7 @@ const socialPosts = {
        
         //console.log(vm.entry);
         vm.onSubmit = (entry) =>{
+            console.log("test");
             console.log(entry);
             //vm.entry= entry;
             vm.onScreen = false;
