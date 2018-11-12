@@ -6,8 +6,8 @@ const postForm = {
     
     
     bindings:{   
-        onScreen: "<",
-        onSubmit: "&",
+       // loadEditSection: "&",
+        onSubmit: '&',
     }
 
 

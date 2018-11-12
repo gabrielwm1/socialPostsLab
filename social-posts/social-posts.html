@@ -3,9 +3,8 @@
     
     <button ng-click ="$ctrl.loadEditSection()">new post</button>
 
-    <post-form
-        on-screen= "onScreen"
-        on-submit= "onSubmit"></post-form>
+    <post-Form
+        on-Submit= "$ctrl.onSubmit(entry)"></post-form>
 
     <section ng-repeat= "post in $ctrl.posts">
         <post

@@ -11,12 +11,17 @@ const socialPosts = {
         vm.onScreen = false;
         console.log(vm.onScreen);
         vm.posts = [];
-
-        vm.onSubmit = () =>{
+       
+        //console.log(vm.entry);
+        vm.onSubmit = (entry) =>{
+            console.log(entry);
+            //vm.entry= entry;
             vm.onScreen = false;
+            // vm.post= entry;
             vm.posts.push(angular.copy(entry));
             //console.log(posts);   
-            console.log("test");
+           // console.log(vm.entry);
+
            };
         
         vm.loadEditSection = () => {

@@ -2,14 +2,14 @@
 //create an object with properties of template and controller
 const post = {
 
-    template: `{{$ctrl.post.title}}
-               {{$ctrl.post.thought}}`,
+    template: `{{$ctrl.entry.title}}
+               {{$ctrl.entry.thought}}`,
 
     bindings: {
-        post: "<",
-        
+        post: '<',
+
     }
-}
+};
 
 angular
     .module("App")
